@@ -6,7 +6,7 @@ export const idols = [{
     mbti: 'ENFP',
     height: '168',
     weight: '47',
-    imageId: ''
+    imageId: 'UYzIuvq'
 }, {
     id: 1,
     stageName: 'Sua',
@@ -15,7 +15,7 @@ export const idols = [{
     mbti: 'ESFJ',
     height: '162',
     weight: '42',
-    imageId: ''
+    imageId: '9MzVCZu'
 }, {
     id: 2,
     stageName: 'Jiu',
@@ -24,7 +24,7 @@ export const idols = [{
     mbti: 'ENFP',
     height: '167',
     weight: '49',
-    imageId: ''
+    imageId: 'ApyIZ9q'
 }, {
     id: 3,
     stageName: 'Seulgi',
@@ -33,7 +33,7 @@ export const idols = [{
     mbti: 'ISFP',
     height: '164',
     weight: '44',
-    imageId: ''
+    imageId: 'ZnoPg4l'
 }, {
     id: 4,
     stageName: 'Miyeon',
@@ -42,7 +42,7 @@ export const idols = [{
     mbti: 'ENFP',
     height: '161',
     weight: '45',
-    imageId: ''
+    imageId: 'i85T0v3'
 }, {
     id: 5,
     stageName: 'Momo',
@@ -51,7 +51,7 @@ export const idols = [{
     mbti: 'INFP',
     height: '167',
     weight: '48.5',
-    imageId: ''
+    imageId: '6NapGJW'
 }, {
     id: 6,
     stageName: 'Handong',
@@ -60,5 +60,5 @@ export const idols = [{
     mbti: 'ISFP',
     height: '165',
     weight: '46',
-    imageId: ''
+    imageId: 'mN9sFdK'
 }];
