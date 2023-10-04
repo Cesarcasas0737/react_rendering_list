@@ -1,11 +1,11 @@
 import { idols } from './idols.jsx';
 import { getImageUrl } from './utils.jsx';
-
+import './CreateIdolList.css'
 export default function List() {
 
   const listItems = idols.map(idol =>
     <li key={idol.id}>
-      <img
+      <img className='idolImage'
         src={getImageUrl(idol)}
         alt={idol.stageName}
       />
