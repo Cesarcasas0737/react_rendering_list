@@ -4,17 +4,19 @@ import './CreateIdolList.css'
 export default function List() {
 
   const listItems = idols.map(idol =>
-    <li key={idol.id}>
+    <div className='idolContainer' key={idol.id}>
       <img className='idolImage'
         src={getImageUrl(idol)}
         alt={idol.stageName}
       />
       <p>
-        <b>{idol.stageName}</b>
-          {' ' + idol.nationality + ' '}
-          known for {idol.mbti}
+        <b>{idol.stageName} from {idol.group}</b>
+        <li>Nationality: {idol.nationality}</li>
+        <li>MBTI: {idol.mbti}</li>
+        <li>Height: {idol.height}</li>
+        <li>Weight: {idol.weight}</li>
       </p>
-    </li>
+    </div>
   );
 
   return <ul>{listItems}</ul>;
