@@ -1,6 +1,7 @@
 import { idols } from './idols.jsx';
 import { getImageUrl } from './utils.jsx';
 import './CreateIdolList.css'
+
 export default function List() {
 
   const listItems = idols.map(idol =>
@@ -13,8 +14,8 @@ export default function List() {
         <b>{idol.stageName} from {idol.group}</b>
         <li>Nationality: {idol.nationality}</li>
         <li>MBTI: {idol.mbti}</li>
-        <li>Height: {idol.height}</li>
-        <li>Weight: {idol.weight}</li>
+        <li>Height: {idol.height +"cm"}</li>
+        <li>Weight: {idol.weight+ "kg"}</li>
       </p>
     </div>
   );
